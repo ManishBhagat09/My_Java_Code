@@ -1,0 +1,75 @@
+* Types of variables in java
+  i.  Local variable
+  ii. Global variable
+  iii. Final variable
+
+* Local variable
+ - Any variable that is declare inside the method is called as local variable
+ example/syntax 
+ - inside the method means(non static, static, main, main method, constructor para or non-para)
+ void add()
+	{
+		int a = 1;
+	}
+static void sub()
+	{
+		int a = 1;
+		string name = "Manish"
+	}
+ - local variable cannot be distinguish between static and non-static i.e( static int a, non-static int b)
+ - local variable does not have a default value you have to initialize.
+ - local variable cannot utilize until and unless it is initialized.
+   declaration   int a;
+   initialization a = 10;
+   utilization     println(a);
+ - scope of local variable will be from staring of method till the end of method.
+ - brown  in color is a local variable.
+
+
+* Global variable
+ - Any variable that is declare outside any method but inside the class is called as global variable.
+ - syntax
+  class One
+  {
+  int a=100; //global 
+  double b=9.09 //global
+  void add()
+  {
+  int salary = 9000;//local 
+  }
+  main()
+  {
+  String name="Manish";//local
+  }
+ 
+ }
+ - global variable can be distinguish between static and non-static.
+ - global variable have a default value.
+   double,float = 0
+   Boolean = false
+   string = null
+   char-not defined
+ - global variable can be utilize without initialized.
+ - Scope of global variable will be from beginning of the class till the end of class.
+ - int a=100; // declare and initialize in a single line.
+
+* Final variable
+syntax of final variable inside main method
+
+void add()
+{
+final int min=60;//local variable
+}
+final static double pi=3.14//global as final
+
+** facts of final keyword
+- final-variable --> value can't be changed
+- final method   --> no one can override it
+- final-class    --> no one can inherit it
+
+** Math class
+- predefined class in java 
+- present under java lang package.
+- it is present in java lang package 
+- we can perform any mathematic operation.
+   

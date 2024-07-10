@@ -1,0 +1,16 @@
+* GITHUB 
+- Create your account in GitHub repository tool available in the market
+- Git bash local - using which, you can actually push and pull the code.
+
+- GitHub is repository tool available in the market
+-https://github.com/ManishBhagat09
+
+ 
+commands
+- git --version ( this will help to identify the version)
+- git init      ( initialise you git repository)
+- git clone repositoryurl.git ( initialise you git repository)
+- git status
+- git add filename
+- git add .
+- git push --all repositorurl.git (https://github.com/ManishBhagat09/My_Java_Code.git)

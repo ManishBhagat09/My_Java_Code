@@ -1,0 +1,25 @@
+* Scanner class
+- Predefine in class in java present util.lang package.
+- this class accept human input at run time (example calculator)
+- Scanner class only have parameterized constructor
+
+
+* how do I access static method different class?
+  using classname.method_name
+  Math.add()
+
+* how do I access Non-static method different class?
+
+
+* method present inside scanner class
+- nextint()                accept int value
+- next()                   string
+- nextdouble() 		   double
+- nextshort()		   Short
+- nextbyte()		   Byte
+- nextlong()		
+- nextfloat()
+- nextboolean()
+
+* anything coming from lang package need not to be imported.
+* let's us utilize all the methods of scanner class

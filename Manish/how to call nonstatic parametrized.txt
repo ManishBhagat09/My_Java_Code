@@ -1,0 +1,50 @@
+* how to call nonstatic parametrized method
+* method name will be same but parameter inside method will be different.
+
+        void add(int a, int b)
+	{
+		int sum = a+b;
+		System.out.println(sum);
+	}
+	void add(double a, int b)
+	{
+		double sum = a+b;
+		System.out.println(sum);
+	}
+
+* Method overloading
+  - Developing multiple method with the same name but variation in argument list.
+  - In java you will be never to able to create method with the same name and same agrument.
+    add();
+    add();
+  - but we can overload the method with variation in the argument list.
+  - we can overload both static and non-static method
+  - variation in argument list.
+    i.   No of arguments
+    ii.  order of occurance arguments
+    iii. datatype of the arguments
+
+
+** Constructor in java
+ - constructor is special type of method in java which doesn't have any return type. (void, byte, int, short, byte, char etc)
+ - constructor are always non-static in nature
+ - constructor can be paramatrized and non-paramatrized (
+ - constructor can have any have access specifier (public, private, protected and default)
+ - constructor always have same name as class name.
+
+ - constructor can be call by creating an object.
+ - we dont need to call constructor once we creat
+   we can call constuctor in two way
+   i) class_name reference_variable = new class_name();
+	Amazon a1 = new Amazon();
+   
+  ii) new class_name();
+	new Amazon();
+
+** Constructor overloading
+ - Developing multiple constructor but variation in the argument list.
+ - variation in argument list.
+    i.   No of arguments
+    ii.  order of occurance arguments
+    iii. datatype of the arguments
+

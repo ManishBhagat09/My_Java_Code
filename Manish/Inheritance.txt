@@ -1,0 +1,28 @@
+Inheritance
+
+* Multilevel inheritance
+ - one child or class inheriting the property from another class a
+
+			
+				super most class  *******
+						     ^
+						     |
+
+				super class       *******
+ 						     ^
+						     |
+ 
+                                child class       *******
+						     ^
+						     |
+
+* create object of child class always
+
+* hirical level inheritance
+ 
+ 		super class    ********
+
+		
+		subclass **                ** subclass
+Hieracial level inheritance inheriting multiple level inhersi
+

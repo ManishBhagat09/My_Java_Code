@@ -1,0 +1,57 @@
+String
+- predefined class
+- present inside java lang package. we don't need to import it
+- string follows indexing
+- String name = "Manish"
+		 012345  length
+- each space is also 1 index
+	String name = "Manish B"	
+		       01234567	  
+- this topic will help you to string manipulation
+- String manipulation
+ eg: from address of someone it will select only specific requirement like pincode.
+- manipulation means updating, delating data
+- length always start from 1.
+- indexing always start from 0.
+
+
+
+- what is string manipulation?
+
+methods of string class
+
+- length
+- lowercase
+- uppercase
+- indexofchar
+- charAt(index)
+- trim - trim functions removes the extra space from start of string and end of string but not in the middle of string.
+- equals         - check if 2 strings are equals or not(  assignment =,  conditional ==)
+- equalsignorecase
+- contains\
+- substring(start index)
+- substring(start index, end index) (1 ,5) -> (manish) -> (anis)
+- isempty (checks empty or not)
+- lastIndexof
+- Replace
+- replaceAll
+
+* find out those employee whose name start with S.
+-- select * from emp1 where ENAME like 's%';  // % multi character search
+ 
+* find out those employee whose name ends with S.
+-- select * from emp1 where ENAME like '%s';
+
+* find out those employee whose name have letter o  in it .
+-- select * from emp1 where ENAME like '%o%';
+
+* find out those employee whose name have just four letter in it .
+-- select * from emp1 where ENAME like '----';  // -- single character search
+
+
+- match (string function)
+
+if your is "manish" check if the given strings ends with h
+
+
+

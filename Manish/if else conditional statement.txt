@@ -1,0 +1,29 @@
+* if else conditional statement
+if(condition)
+{
+
+}
+else
+{
+
+}
+
+* age of person of is 17 find out the person is eligible 
+
+* if else if conditional statement
+
+* if()
+  {
+		if()
+		  {
+		
+		  }	
+		else
+		  {
+	
+		  }
+ }
+else
+{
+
+}

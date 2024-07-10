@@ -1,0 +1,80 @@
+* Final variable
+ - any local and global variable can be final in nature.
+ - any local where which is final will not change its value throughout the method.
+ - any global where which is final will not change its value through out the class.
+ - variable being final means value cannot be change
+ - for any universal truth  we can use final variable concept (1 min = 60 sec, 1 hour = 60 mint, 1 km = 1000 m)
+ - syntax of final variable inside the method
+   void add()
+   {
+   final int min=60;//local variable
+   }
+   class One
+   {
+   final static double pi=3.14;//global variable
+   main()
+   {
+   
+   }
+   }
+
+* facts of final keyword
+- final keyword can be use for variable --> value can't be changed
+- final keyword can be use for method   --> no one can override it (
+- final keyword can be use for class    --> no can inherit it
+
+* Math class
+
+- predefined class we have in java 
+- present under java lang package.
+- it is present in java lang package it can use directly without importing. 
+- we can perform any mathematic operation.
+- anything coming from java lang package we don't need to import it.(System.out.println)
+- we can perform any mathematical operation( add, sub, mul, div, greatest of two number, pi value)
+- how you can utilize method : math.method
+
+
+- (Math.random() //for generating unique value between 0 and 1.
+- System.out.println(Math.random());     //Always generate random number between 0 and 1 
+- while performing test case and test scenario (to save screenshot with unique no we use Math.random)
+
+* Math.random -- return type is double
+- Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.Returned values 
+- returns a double value upto 17 digit because return type is double.
+
+* Global variable of math class
+ double pi = Math.PI;   //static final variable
+
+* Loops in Java
+
+- loops means iterations
+
+* Syntax of for loop
+ for(initialization; condition; increment/decrement operator)
+{
+
+
+}
+
+increment i++;  --> increment value by 1
+decrement i--;  --> decrement value by 1
+
+* lets print your name 2 times
+* lets print 1 to 10
+* lets print 1 to 50
+* find out area of circle by using for loop where r is coming math.random and pi is coming from math.pi and area circle will print 10 times
+* math.random generate random values
+
+
+
+
+
+
+
+
+
+
+
+
+
+

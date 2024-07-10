@@ -1,0 +1,33 @@
+Array - array in java used to store homogeneous(same type of data) value together
+	- known for fixed size
+	- array follow indexing
+	- can store null(unknown value)
+	- it can even store duplicate
+syntax1 :
+Datatype[] variable = new Datatype[size of array]
+
+syntax2 :
+Datatype variable[] = new Datatype[size of array]
+
+example:
+String [] name = new String[3];
+String  name[] = new String[3]
+name[0] = "Manish"
+name[1] = "Jaywant"
+name[2] = "Bhagat"
+homogeneous(same type of data)(only int, only string, only float)
+
+
+java.lang.ArrayIndexOutOfBoundsException -
+
+tocharArray(String function)
+
+Check wheather 2 arrays are equal or not.
+Create a array of index[3] of int datatype and write down there values from scanner class
+
+Create a array of index[3] of double datatype and write down there values from scanner class
+
+Create a array of index[3] of boolean datatype and write down there values from scanner class
+
+
+

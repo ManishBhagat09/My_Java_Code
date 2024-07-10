@@ -1,0 +1,84 @@
+* Logical operators 
+ AND   &&     
+ OR    ||
+ NOT   !
+
+* Table for AND OpeartoR
+	   	 C1 	 C2 	 O/P
+		TRUE 	TRUE	 TRUE
+		TRUE 	FALSE	 FALSE
+		FALSE	TRUE	 FALSE
+		FALSE	FALSE	 FALSE 
+
+* If both condition are TRUE result is TRUE.
+* If one of the condition is FALSE result is FALSE.
+
+* Table for OR Opeartor
+		 C1 	 C2 	 O/P
+		TRUE 	TRUE	 TRUE
+		TRUE 	FALSE	 TRUE
+		FALSE	TRUE	 TRUE
+		FALSE	FALSE	 FALSE
+
+* If one of the condition is TRUE result is TRUE.
+* If both condition are FALSE result is FALSE.
+
+* Table for NOT Opeartor(reversal operator)
+ 		 C1 	 O/P 	 
+		TRUE 	FALSE
+		FALSE	TRUE	
+		
+
+* If the condition is TRUE result will become FALSE.
+* If the condition is FALSE result will become TRUE.
+
+
+* syntax of AND operator
+if( C1 && C2)
+{
+
+}
+
+* syntax of OR operator
+if( C1 || C2)
+{
+
+}
+
+BODMOS Rule( Bracket of division multiplication addition substraction)
+
+** Syntax of AND-NOT operator
+ if(!( C1 && C2))
+ {
+	first the child solve the bracket 
+ }
+
+
+** Syntax of AND-NOT operator
+if(!( C1 || C2))
+{
+	first the child solve the bracket 
+}
+
+
+* only static method  can be call by its name. static method will have modifier as static.
+
+* how to invoked non-static method.
+
+* Non-static method  can be call by object name. Non-static method will have modifier as Non-static.
+ //create an object
+ syntax of creating object
+ classname variable_name = new classname();
+
+*  we can create object anywhere but creating object is inside one method is no use.
+* always create object inside main method because main method can call the method.
+
+* 1. in my program there are two method one static and other non-static
+static method call by method name
+non-static can be call by creating object of reference varible.
+but can we call static method by the object of non-static method.
+
+2.For non-static method how we create object of reference varible for single method?
+
+**paramatrized method and non-paramatrized
+

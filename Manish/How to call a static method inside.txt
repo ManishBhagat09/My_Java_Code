@@ -1,0 +1,6 @@
+* How to call a static method inside the main method?
+
+we can call static method by its name
+ 
+* It is possible to have multiple method in java?
+By its methods

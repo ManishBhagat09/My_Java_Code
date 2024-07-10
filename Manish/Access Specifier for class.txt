@@ -1,0 +1,54 @@
+Access Specifier for class
+
+public               permitted
+protected            you cant have it
+default/package      permitted
+private              you cant have it
+
+what do u mean by a class being public?
+it can accessed within the package also  (scanner class, System class)
+outside the package also
+
+
+what do u mean by a class being package/default?
+it can accessed within the package  (scanner class, System class)
+not outside the package 
+
+if class is accessible then you can use other class methods.
+
+
+** Interface
+interface is use to create abstract method which helps us to achieve abstraction.
+
+*two types of method
+1.concrete method
+2.abstract method
+
+1.concrete method - concrete method are those method which will have method body.
+		    ex: void add()
+			{
+			int a= 10;
+			system.out.println(a);	
+
+			}
+ and those method we are learning from day 1.
+
+2.abstract method - abstract method are those method which will have no method body.(empty methods)
+		   ex: void add();
+
+**1.concrete class - concrete class are those class which will only have concrete method body.
+
+** 2.Abstract class - abstarct class are those class which can have both concrete and abstract method body.
+
+* abstract method facts.
+1.Every abstract method needs to non-static
+2.Every abstract method needs to overriding.
+
+
+
+
+
+
+
+
+
